@@ -1,0 +1,25 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Biblioteca do curso de Javascript com TDD na prática.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manaia/js-tdd-course.git"
+  },
+  "keywords": [
+    "javascript",
+    "tdd",
+    "js",
+    "library"
+  ],
+  "author": "Arthur Manaia <arthurnovais7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manaia/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/Manaia/js-tdd-course#readme"
+}
