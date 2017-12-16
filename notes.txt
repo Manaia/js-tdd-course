@@ -15,4 +15,18 @@ Jscs - padrões de código
 Eslint - padrões de código: criar regras e fazer leitura delas pelos arquivos
     * eslint.org
 
+Aula 007
+
+Eslint - https://eslint.org/
+    * integrações com editores de texto: https://eslint.org/docs/user-guide/integrations
+    * Passo a passo:
+        - npm install eslint --save-dev
+        - ./node_modules/.bin/eslint --init
+        - ./node_modules/.bin/eslint pasta_do_js/*.js
+
+Aula 008
+
+Editorconfig - http://editorconfig.org/
+    * Configurando o editor de texto. Ex: identação
+    * plugin necessário para o editor config        
 
