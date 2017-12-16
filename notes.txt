@@ -73,6 +73,13 @@
 
 
 -- Início do módulo 2: Aprendendo ES6
-  Aula 011 - EcmaScript 6
+  Aula 011 - Introdução ao EcmaScript 6
+    * Features: http://es6-features.org/#Constants
+    * Tabela de compatibilidade: https://kangax.github.io/compat-table/es6/
+    * Leitura sobre es6
+      - inglês: https://ponyfoo.com/articles/tagged/es6-in-depth
+      - pt-br: https://nipher.io
+  
+  Aula 012-2.1 - Escopo do JS
 
 -- Fim do módulo 2
