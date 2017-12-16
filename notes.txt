@@ -1,32 +1,78 @@
-Aula 005
+-- Início do módulo 1: Boas Práticas
+  Aula 002 - Configuração do NPM
+  Npm - https://www.npmjs.com
+    * configurar npm: https://docs.npmjs.com/misc/config
+    * configurações default, ex: npm set init-author-name "Arthur Manaia"
+    * add user para linkar o projeto com o seu npm: npm adduser  
+    * inicializando a biblioteca no projeto: npm init
 
-Airbnb - padrões de código
-    * https://github.com/airbnb/javascript
+  Aula 003 - Criando o gitignore
+  Gitignore - https://www.npmjs.com/package/gitignore
+    * instalação: npm install gitignore -g
+    * listar todos os projetos disponíveis para a utilização do gitignore: gitignore -types
+    * adicionar o projeto: gitignore Node
+      
+  Aula 004 - Criando arquivos para documentação
 
-Standard - pardrões de código
-    * https://github.com/standard/standard
+  Arquivos para documentação - readme, license, contributing (se for open source)
+    * Repositório de boas práticas para documentação: https://github.com/matiassingers/awesome-readme
+    * Repositório do instrutor para levar como exemplo: https://github.com/lyef/lyef-react-component
+    * Repositório com um template bacana de readme: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+    * Licença: https://opensource.org/
+      - https://opensource.org/licenses
+      - MIT: https://opensource.org/licenses/MIT
+    * Contribuição: https://github.com/lyef/lyef-react-component/blob/master/CONTRIBUTING.md
+    
+  Aula 005 - Padrões de código: styleguide
 
-Idiomatic - padrões de código
-    * https://github.com/rwaldron/idiomatic.js
+  Airbnb - padrões de código
+      * https://github.com/airbnb/javascript
 
-Jscs - padrões de código
-    * jscs.info
+  Standard - pardrões de código
+      * https://github.com/standard/standard
 
-Eslint - padrões de código: criar regras e fazer leitura delas pelos arquivos
-    * eslint.org
+  Idiomatic - padrões de código
+      * https://github.com/rwaldron/idiomatic.js
 
-Aula 007
+  Jscs - padrões de código
+      * jscs.info
 
-Eslint - https://eslint.org/
-    * integrações com editores de texto: https://eslint.org/docs/user-guide/integrations
-    * Passo a passo:
-        - npm install eslint --save-dev
-        - ./node_modules/.bin/eslint --init
-        - ./node_modules/.bin/eslint pasta_do_js/*.js
+  Eslint - padrões de código: criar regras e fazer leitura delas pelos arquivos
+      * eslint.org
 
-Aula 008
+  Aula 006 e 007 - instalando e usando o eslint
 
-Editorconfig - http://editorconfig.org/
-    * Configurando o editor de texto. Ex: identação
-    * plugin necessário para o editor config        
+  Eslint - https://eslint.org/
+      * integrações com editores de texto: https://eslint.org/docs/user-guide/integrations
+      * Passo a passo:
+          - npm install eslint --save-dev
+          - ./node_modules/.bin/eslint --init
+          - ./node_modules/.bin/eslint pasta_do_js/*.js
 
+  Aula 008 - Configurando o EditorConfig
+
+  Editorconfig - http://editorconfig.org/
+      * Configurando o editor de texto. Ex: identação
+      * plugin necessário para o editor config        
+  
+  Aula 009 - Criando um npm scripts
+    * Ex de um scripts
+      - Em package.json no objeto "scripts" a chave será o nome do comando e o valor será o comando
+      - Ex: "lint": "./node_modules/.bin/eslint src/*.js"
+      - Em seguida no terminal, rode o comando npm run lint
+  
+  Aula 010 - Configurando hooks no git
+
+  Husky - alguns scripts que rodam antes de alguma tarefa
+    * Projeto no github: https://github.com/typicode/husky
+    * Lista de comandos: https://github.com/typicode/husky/blob/master/HOOKS.md
+
+-- Fim do módulo 1
+
+
+
+
+-- Início do módulo 2: Aprendendo ES6
+  Aula 011 - EcmaScript 6
+
+-- Fim do módulo 2
