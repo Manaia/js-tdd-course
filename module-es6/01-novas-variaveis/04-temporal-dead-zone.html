@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04 - temporal dead zone</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // printando cat, retorno = undefined se a palavra chave for 'var', pois o js faz algo chamado 'hosting'
+    // ele pega todas as variáveis declaradas que tem no corpo do js e vai atribuir tudo em cima como se fosse global, já 
+    // que está sendo utilizado o 'var'. 
+    // se for let ou const, o erro será diferente, pois quando se utiliza uma dessas palavras chaves, ele não fará o mesmo host
+    // como se faz no 'var', ele vai ignorar, não permitindo que seja criada um variável sem atribuição.
+    // isso é útil pq assim a gente consegue ver que estamos chamando valores antes mesmo de serem atribuídos
+    console.log(cat);
+    // declarando a variável cat com o valor 'meow'
+    var cat = 'meow';
+    // let cat = 'meow';
+    // const cat = 'meow';
+</script>
+</html>

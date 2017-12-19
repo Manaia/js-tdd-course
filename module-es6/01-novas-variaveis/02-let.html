@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>02 - let</title>
+</head>
+<body>
+  
+</body>
+<script>
+    // não é possível ter duas referências de mesmo nome, a não ser que estejam em blocos diferentes,
+    // ou seja, em escopos diferentes
+
+    // atribuindo o valor 'cat' a variável animal
+    var animal = 'cat';
+    // printando 'cat'
+    console.log(animal);
+    {
+        // atribuindo o valor 'dog' a variável animal    
+        let animal = 'dog';
+        // printando 'dog'
+        console.log(animal);
+    }
+    // printando 'cat', pois está fora do bloco onde se encontra a variável animal com o valor 'dog'
+    console.log(animal);
+</script>
+</html>

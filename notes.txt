@@ -81,5 +81,35 @@
       - pt-br: https://nipher.io
   
   Aula 012-2.1 - Escopo do JS
+    * nesta aula, foi abordado o escopo do js. Tiveram exemplo de declaração de variáveis
+      usando a palavra chave 'var' em escopos diferentes, demonstrando o comportamento em situações específicas
+    * o 'var' é global  a não ser que estejam dentro de funções
+    * as variáveis feitas com 'var' são chamadas 'function scoped', são variáveis que tem o escopo somente dentro de funções ou são globais
+
+  Aula 013-2.2 - Variável let no JS
+    * nesta aula, foi abordado a palavra chave 'let'. Tiveram exemplos de declaração de variáveis 
+      usando a palavra chave 'let' e 'var' em escopos diferentes, para demonstrar o comportamento de ambos em situações específicas.
+    * uma das características do let é a declaração de variáveis em um escopo, e não correr o risco dessa variável ser reescrita em outro escopo.
+      Então você garante que ela ficará presa apenas naquele escopo.
+
+  Aula 014-2.3 - Variável const no JS
+    * nesta aula, foi abordado a palavra chave 'const'. Tiveram exemplos de declaração de variáveis usando a palavra chave,
+      com ênfase na afirmação que o const faz com que a variável fique imutável, mas não é bem assim.
+
+    * a palavra chave const, faz com que a variável seja constante, não sendo possível reatribuir algum outro valor.
+      Porém, em um dos exemplos na aula, se for criado um objeto usando 'const', é possível reatribuir os valores das propriedade 
+      desse objeto. Mas reatribuir o objeto em si, não é possível.
+
+  Aula 015-2.4 - Temporal Dead Zone  
+    * nesta aula, foi abordado o tema temporal dead zone. Que nada mais é, uma referenciar uma variável, sem mesmo ter atribuído algum valor a ela antes.
+
+    * se a palavra chave for 'var', a mensagem será 'undefined', pois o js faz algo chamado 'hosting', cuja a função é,
+      pegar todas as variáveis declaradas que tem no corpo do js atribuir tudo em cima como se fosse global, já 
+      que está sendo utilizado o 'var'.  
+
+    * se for let ou const, o erro será diferente, pois quando se utiliza uma dessas palavras chaves, ele não fará o mesmo host
+      como se faz no 'var', ele vai ignorar, não permitindo que seja criada um variável sem atribuição. Isso é útil pq assim a gente consegue ver que estamos chamando valores antes mesmo de serem atribuídos.
+      
+  Aula 016-3.1 - Introdução ao Arrow Function
 
 -- Fim do módulo 2

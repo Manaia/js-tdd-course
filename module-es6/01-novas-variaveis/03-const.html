@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03 - const</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // declaração de uma variável constante
+    const secretNumber = 28;
+
+    // atribuindo outro valor na variável, mas isso vai dar erro
+    // secretNumber = 40;
+
+    // declarando um objeto arthur
+    const arthur = {
+        name: 'Arthur',
+        age : 17
+    };
+
+    // método para deixar o objeto como um todo imutável
+    // Object.freeze(arthur);
+    
+    // reatribuindo a variável arthur, mas irá gerar um erro, pq não é possível reatribuir a variável quando se tem a palavra chave 'const' 
+    // const arthur = {
+    //     name: 'Manaia',
+    //     age : 30
+    // };
+
+    // printando o objeto arthur
+    console.log(arthur);
+
+    // reatribuindo um novo valor na propriedade arthur.age
+    arthur.age = 18;
+
+    // printando o resultado dessa reatribuição.. Sucesso, não deu erro
+    console.log(arthur);
+</script>
+</html>
