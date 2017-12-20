@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>02 - This no Arrow Function</title>
+</head>
+<body>
+    <button id="btn">Click me!</button>
+</body>
+<script>
+    const btn = document.getElementById('btn');
+    
+    btn.addEventListener('click', function() {
+        // Vai printar o elemento em si, no caso o botão
+        console.log(this);
+    });
+
+    btn.addEventListener('click', () => {
+        // Vai printar o elemento que está em todo o contexto, no caso o window.        
+        console.log(this);
+    });
+</script>
+</html>

@@ -111,5 +111,22 @@
       como se faz no 'var', ele vai ignorar, não permitindo que seja criada um variável sem atribuição. Isso é útil pq assim a gente consegue ver que estamos chamando valores antes mesmo de serem atribuídos.
       
   Aula 016-3.1 - Introdução ao Arrow Function
+    * arrow function é uma feature do es6. Uma expressão arrow function possui uma sintaxe mais curta do que uma função anônima do es5, por exemplo.
+
+    * por ela ter uma sintaxe mais curta, ela tem como característica inicial, sua simplicidade na hora da leitura de código,
+      o encadeamento de funções também fica bem mais simples
+
+  Aula 017-3.2 - Arrow Function e o Lexical This
+
+    * nesta aula foi abordado o elemento this do javascript.
+
+    * o this do arrow function pega o contexto de onde ele está e não do contexto como um todo
+
+    * é recomendado usar arrow function dentro de outras funções, para manipular as propriedades do objeto 
+      no contexto que a função está
+    
+  Aula 018-4.1 - Introdução a Template Literals
+
+  Aula 019-4.2 - Usando Template Literals Para HTML Fragments
 
 -- Fim do módulo 2
