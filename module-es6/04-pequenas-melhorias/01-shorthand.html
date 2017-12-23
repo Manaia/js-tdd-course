@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Shorthand Properties</title>
+</head>
+<body>
+  
+</body>
+<script>
+  let firstname = "Arthur";
+  let surname   = "Manaia";
+  let age       = "18";
+
+  const person = {
+    // No ES5 se atribuia os valores nas propriedades
+    /*
+      firstname: firstname,
+      surname: surname,
+      age: age,
+    */
+
+    // No ES6 utilizando shorthand properties
+    // Se o nome do valor for igual a propriedade
+
+    firstname,
+    surname,
+    age,
+
+    // Criando funções dentro de objetos no ES5
+    /*
+      hello: function(){
+        console.log("Hello!");
+      }
+    */
+
+    // No ES6 utilizando shorthand properties
+    hello() {
+      console.log("Hello!")
+    }  
+    
+  };
+
+  console.log(person);
+
+  person.hello();
+</script>
+</html>

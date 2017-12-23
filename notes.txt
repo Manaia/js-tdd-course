@@ -141,7 +141,12 @@
     * utilizando uma função na frente do texto e fazer modificações em cima dele
     * nessa aula houve a:
       * utilização da expressão "debugger"
-      * utilização da feature do es6 chamada rest
+      * utilização da feature de parâmetros do es6 chamada rest: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/rest_parameters
       * utilização da função reduce() do js
-      
+  
+  Aula 021-5.1 - Shorthand Properties
+    * na aula foi mostrado a utilização do shorthand Properties presente no es6
+    * tiveram dois exemplos: uma alternativa de atribuir um valor a uma propriedade de um objeto
+      e atribuir um função a um objeto  
+
 -- Fim do módulo 2
