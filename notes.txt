@@ -73,6 +73,7 @@
 
 
 -- Início do módulo 2: Aprendendo ES6
+
   Aula 011 - Introdução ao EcmaScript 6
     * Features: http://es6-features.org/#Constants
     * Tabela de compatibilidade: https://kangax.github.io/compat-table/es6/
@@ -126,7 +127,21 @@
       no contexto que a função está
     
   Aula 018-4.1 - Introdução a Template Literals
+    * template literal tem a função de criar strings com variaveis internas e concatena-las com mais praticidade
+    
+    * na aula foi mostrado como utilizar o template em uma string linear utilizando variáveis 
+      e também utilizando a quebra de linha
 
   Aula 019-4.2 - Usando Template Literals Para HTML Fragments
-
+    * criando fragmentos de HTML utilizando JS
+    * na aula foi criado um fragmento de HTML utilizando o template literal,
+      no caso, foi utilizado funções, variáveis e as próprias tags em HTML.
+  
+  Aula 020-4.3 - Tagged Template
+    * utilizando uma função na frente do texto e fazer modificações em cima dele
+    * nessa aula houve a:
+      * utilização da expressão "debugger"
+      * utilização da feature do es6 chamada rest
+      * utilização da função reduce() do js
+      
 -- Fim do módulo 2

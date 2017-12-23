@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>03 - Tagged Template Literal</title>
+</head>
+<style>
+  .green{
+    color: green;
+    font-size: 25pt;
+  }
+</style>
+<body>
+    
+</body>
+<script>
+  const city       = 'Dublin';
+  const something  = 'Guiness';
+  const otherThing = 'Other';
+  // template: as variáveis do template literal 'ireland'
+  // ...values: cada um dos argumento 'city', 'something', 'otherThing'
+  /* SCOPO:
+    template: (4) 
+      0: "I live in "
+      1: " the city of "
+      2: " and "
+      3: "!"
+      length: 4
+      raw : (4) 
+        0: "I live in "
+        1: " the city of "
+        2: " and "
+        3: "!"
+        length: 4
+    values: (3) ["Dublin", "Guiness", "Other"]
+  */
+  function green (template, ...values) {
+    /*
+      Function reduce(accumulator, part, cont)
+      args: 
+        accumulator - a string como um todo que será concatenado
+        part - a parte da string que está sendo modificada naquele momento
+        cont - variável contadora 
+    */    
+    
+    return template.reduce((accumulator, part, cont) => {
+      return `
+        ${accumulator}
+        <span class="green">
+          <!-- o contador ta sendo feito a partir do arg template que será maior que o arg ...values, por isso deve ser cont - 1  -->
+          ${values[cont - 1].toUpperCase()}
+        </span>
+        ${part}
+      `;
+    }); 
+  }
+  // adicionando o método na frente do texto
+  const ireland = green`I live in ${city} the city of ${something} and ${otherThing}!`;
+
+  document.body.innerHTML = ireland;
+</script>
+</html>
