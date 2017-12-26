@@ -148,5 +148,31 @@
     * na aula foi mostrado a utilização do shorthand Properties presente no es6
     * tiveram dois exemplos: uma alternativa de atribuir um valor a uma propriedade de um objeto
       e atribuir um função a um objeto  
+  
+  Aula 022-5.2 - Default Parameters 
+    * uma adição dentro do es6, para setar um parâmetro padrão dentro de uma função
+    * bastante útil para evitar o famoso 'undefined'
 
+  Aula 023-5.3 - Novos Métodos Para Strings
+    * Métodos para se trabalhar com strings es6
+      - startsWith() -> verifica o ínicio da string retornando um booleano
+      - endsWith()   -> verifica o final da string retornando um booleano
+      - includes()   -> verifica se existe uma string a partir de uma string
+      - repeat()     -> repete uma string n vezes
+  
+  Aula 024-6.1 - Array.from()
+    * faz com que o elemento tenha características de um Array
+      tendo acesso a todos os métodos que um array contém
+
+    * foi mostrado também como transformar uma string em um array
+
+  Aula 025-6.2 - Array.of()
+    * Criar um array a partir de certos elementos
+    * Bastante útil para quando precisamos juntar vários elementos diferentes e inseri-los em um array
+
+  Aula 026-6.3 - Array.find() e Array.findindex()
+    * Array.find() - procura um dado dentro de um array e quando acha, ele retorna aquele elemento e termina a função
+    * Array.findIndex() - procura um índice de um array e retorna o índice
+
+    * Bastante poderosos para buscar um determinado elemento dentro de um array passado por uma api, por exemplo.
 -- Fim do módulo 2

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - Default Parameters</title>
+</head>
+<body>
+  
+</body>
+<script>
+  // Default parameter do es6
+  function hello(name = 'Arthur', surname = 'Manaia'){
+    // No es5
+    /*
+      name = name || 'Arthur';
+      surname = surname || 'Manaia';
+    */  
+    console.log(`Hello ${name} ${surname}! How are you?`);
+  }
+
+  hello('Manaia', 'Arthur');
+</script>
+</html>

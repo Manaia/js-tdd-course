@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>03 - Novos Métodos para Strings</title>
+</head>
+<body>
+  
+</body>
+<script>
+  let text = "Lorem ipsum dolor sit amet";
+
+  /*
+    startsWith()
+      - primeiro parâmentro: uma string para verificar se a string pai começa com essa string passada como arg  
+      - segundo parâmentro: um inteiro para setar o local onde o método vai começar a verificar a string  
+  */
+  console.log(text.startsWith('rem', 2));
+   
+  /*
+    endsWith()
+      - primeiro parâmentro: uma string para verificar se a string pai termina com essa string passada como arg  
+      - segundo parâmentro: um inteiro para setar o local onde o método parar de verificar a string  
+  */
+  console.log(text.endsWith('ame', 25));
+  
+  /*
+    includes()
+      - primeiro parâmentro: uma string para verificar se existe na string pai  
+      
+  */
+  console.log(text.includes('ipsum'));
+  
+  /*
+    includes()
+      - primeiro parâmentro: um inteiro para repetir a string n vezes 
+  */
+  console.log('ok'.repeat(10));
+</script>
+</html>
