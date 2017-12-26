@@ -170,9 +170,19 @@
     * Criar um array a partir de certos elementos
     * Bastante útil para quando precisamos juntar vários elementos diferentes e inseri-los em um array
 
-  Aula 026-6.3 - Array.find() e Array.findindex()
+  Aula 026-6.3 - Array.find() e Array.findIndex()
     * Array.find() - procura um dado dentro de um array e quando acha, ele retorna aquele elemento e termina a função
     * Array.findIndex() - procura um índice de um array e retorna o índice
-
     * Bastante poderosos para buscar um determinado elemento dentro de um array passado por uma api, por exemplo.
+
+  Aula 027-6.4 - Array.fill()
+    * Array.fill() - insere um dado dentro de um array, sendo possível passar dois parâmetros para delimitar
+      a posição em que o dado será colocado,sendo o primeiro, o índice inicial onde o elemento será inserido e, o segundo,]
+      o índice final menos 1 até onde o elemento será inserido
+     
+  Aula 028-7.1 - Introdução ao Destructuring
+
+    * Destructuring é uma feature para pegar valores de arrays ou objetos
+      com mais praticidades e com algumas linhas de código
+
 -- Fim do módulo 2

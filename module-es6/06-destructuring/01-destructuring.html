@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Destructuring Objects</title>
+</head>
+<body>
+  
+</body>
+<script>
+  var data = {
+    name:    'Arthur',
+    surname: 'Manaia',
+    age:     18,
+    github:  'https://github.com/Manaia',
+    live: {
+      state: 'São Paulo',
+      city:  'São Paulo'
+    },
+  };
+  /* Método antigo
+    const name    = data.name;
+    const surname = data.surname;
+    const city  = data.live.city;
+    
+    console.log(name);
+    console.log(surname);
+    console.log(city);
+  */
+  // Não é um bloco, é apenas a sintaxe do destructuring
+
+  // armazenando as propriedades name e surname do objeto data
+  const { name, surname } = data;
+
+  console.log(name);
+  console.log(surname);
+
+  // armazenando as propriedades state e city do objeto live que se encontra no objeto data
+  const {state, city} = data.live;
+  
+  console.log(state);
+  console.log(city);
+
+  // Alterando o nome da propriedade state para estado que se encontra no objeto live que está dentro do objeto data
+  const { state : estado } = data.live;
+  console.log(estado); 
+
+  // Definindo um valor a uma propriedade não definida no objeto live que se encontra no objeto data
+  const { country = 'Brazil' } = data.live;
+
+  console.dir(country);
+
+
+</script>
+</html>
