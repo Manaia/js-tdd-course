@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03 - Destructuring Swap Variables</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let a = 42;
+    let b = 21;
+    /* Não utilizando o destructuring
+        let temp;
+        temp = a;
+        a = b;
+        b = temp;
+    */
+    console.log(
+    `
+      a = ${a}
+      b = ${b}
+    `
+    );
+
+    /* Swap de variáveis
+        trocar o valor de 'a' para 'b' e de 'b' para 'a'
+    */
+    
+    [a, b] = [b, a];
+
+    console.log(
+    `
+      a = ${a}
+      b = ${b}
+    `
+    );
+</script>
+</html>

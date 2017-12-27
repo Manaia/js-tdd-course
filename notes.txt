@@ -183,6 +183,14 @@
   Aula 028-7.1 - Introdução ao Destructuring
 
     * Destructuring é uma feature para pegar valores de arrays ou objetos
-      com mais praticidades e com algumas linhas de código
+      com mais praticidade e com algumas linhas de código
 
+  Aula 029-7.2 - Destructuring em Arrays
+    * Destructuring usando arrays, segue a mesma linha utilizando objetos,
+      a diferença é que utilizando o array, a semântica fica [] em vez de {}
+
+  Aula 030-7.3 - Fazendo Swap de Variveis com Destructuring
+    * Como fazer swap de variáveis em apenas uma linha utilizando Destructuring
+    * Na aula foi mostrado dois métodos de fazer o swap, utlizando o Destructuring e não utilizando o Destructuring
+    * Ex: [ a, b ] = [b, a]
 -- Fim do módulo 2
