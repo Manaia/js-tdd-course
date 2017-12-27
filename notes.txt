@@ -193,4 +193,5 @@
     * Como fazer swap de variáveis em apenas uma linha utilizando Destructuring
     * Na aula foi mostrado dois métodos de fazer o swap, utlizando o Destructuring e não utilizando o Destructuring
     * Ex: [ a, b ] = [b, a]
+    
 -- Fim do módulo 2
