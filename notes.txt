@@ -193,5 +193,18 @@
     * Como fazer swap de variáveis em apenas uma linha utilizando Destructuring
     * Na aula foi mostrado dois métodos de fazer o swap, utlizando o Destructuring e não utilizando o Destructuring
     * Ex: [ a, b ] = [b, a]
-    
+
+  Aula 031-8.1 - Introdução ao Spread Operator
+    * Breve introdução da feature Spread
+    * Houve exemplos usando o Spread, sendo eles, concatenar dois array, separar cada elemento de uma string
+      e inseri-los em um array, separar os elementos do array e strings, e etc.
+
+  Aula 032-8.2 - Usando o Spread Dentro de Funções
+    * Foi mostrado um exemplo utilizando spread em funções, passando como argumento um array e alocando cada 
+      elemento daquele Array nos argumentos da função.
+
+  Aula 033-8.3 - Rest Params  
+    * Rest Params é muito semelhante ao Spread Operator
+    * O rest params é muito útil quando não sabemos quantos argumentos a função terá
+
 -- Fim do módulo 2

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - Spread Dentro de Função</title>
+</head>
+<body>
+  
+</body>
+<script>
+  // Uma função que recebe três argumentos
+  function makeSandwich(bread, cheese, sauce){
+    console.log(`Your sandwich with ${bread} bread, ${cheese} chesse and ${sauce} is done!`);
+  }
+
+  // Array com ingredientes de um sanduíche
+  const ingredients = ['italian', 'cheddar', 'barbecue'];
+
+  // Alocando cada elemento do array nos argumentos da função usando spread
+  makeSandwich(...ingredients);
+
+</script>
+</html>

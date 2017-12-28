@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Spread Operator Intro</title>
+</head>
+<body>
+  
+</body>
+<script>
+  let front = ['react', 'vue', 'angular'];
+  let back  = ['python', 'ruby', 'nodejs'];
+
+  /* Método antigo de se concatenar um array com outro
+    let fullStack = [];
+    fullStack = fullStack.concat(front);
+    fullStack.push('RxJS');
+    fullStack = fullStack.concat(back);
+    console.log(fullStack);
+
+    ----------------- OU -----------------
+
+    let fullStack = front.concat(back);
+    console.log(fullStack);    
+  */
+
+  // Juntando dois arrays utilizando o spread operator
+  console.log([...front, ...back]);
+
+  // Juntando os dois arrays e inserindo um elemento novo
+  console.log([...front, 'RxJS', ...back]);
+
+  // Usando o spread operator para separar os elementos de uma string inserindo-os em um array
+  console.log([...'Arthur']);
+
+  // Usando o spread operator para separar cada elemento do array 
+  console.log(...front);
+
+</script>
+</html>

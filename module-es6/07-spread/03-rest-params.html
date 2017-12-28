@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>03 - Rest Params</title>
+</head>
+<body>
+  
+</body>
+<script>
+  /* Trabalhando com muitos args de tamanho indeterminados no ES5
+    function multiply(multi, arg1, arg2, arg3){
+      let array = [];
+
+      array.push(multi * arg1);
+      array.push(multi * arg2);
+      array.push(multi * arg3);
+
+      return array;
+    }  
+
+    console.log(multiply(2, 1, 2, 3));
+  */
+  // Uma função com 'n' argumentos
+  // O retorno desses n args, será um array
+  function multiply(multi, ...args){
+    return args.map(arg => arg * multi);
+  }  
+  
+  console.log(multiply(2, 1, 2, 3, 10, 20, 50));
+
+
+ 
+</script>
+</html>
