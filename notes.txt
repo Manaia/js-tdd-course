@@ -202,7 +202,14 @@
   Aula 033-8.3 - Rest Params  
     * Rest Params é muito semelhante ao Spread Operator
     * O rest params é muito útil quando não sabemos quantos argumentos a função terá
-
+  Aula 034-9.1 - Introdução a Promises
+    * Promise é um objeto com uma ação que não foi finalizada, mas que será finalizada de alguma forma
+    * Promise é importante para se trabalhar com dados assíncronos e evita o callback hell (callback, dentro de callback)
+    * Usou-se dois métodos para tratar o dado da promise, sendo eles o then() e o catch()
+  Aula 035-9.2 - Exemplo Real de Promises
+    *
+  Aula 036-9.3 - Manipulando Multiplas Promises 
+    *
 -- Fim do módulo 2
 
 -- Início do módulo 3: Módulos em Javascript

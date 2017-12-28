@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 - Promises Intro</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /* Um objeto da Promisse
+      Resolve: método que vai resolver a ação
+      Reject: método que vai rejeitar a ação
+    */
+    var defer = new Promise((resolve, reject) => {
+        setTimeout( ()=>{
+            if (true) {
+                resolve('Hello! It works!');
+            }else{
+                reject('Error!');
+            }
+        }, 2000);
+    });
+    /* Métodos Then e Catch
+        then()  - Quando a promessa estiver pronta (resolve), faça alguma coisa
+
+        catch() - Se houver algum erro (reject ), faça alguma coisa
+
+    */
+    // defer
+    //     .then((data) => console.log(data))
+    //     .catch((err) => console.log(err));
+
+    // Encadeado e tratando duas promessas resolve
+    defer   
+        .then((data) => {
+            console.log(data);
+            return 'foo';
+        })
+        .then((data) => console.log(data))
+        .catch((err) => console.log(err));
+</script>
+</html>
+
+<!-- 
+    - Pegar uma mesa
+    - Extensão de rede
+    - Dois cabos de redes grimpados de 5 metros
+ -->
