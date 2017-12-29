@@ -238,6 +238,10 @@
     * Iterators e Iterables são protocolos novos do JS que permite interar sobre um informação
     * Elementos que pode se iterar são chamados de Iterables
     * Iterators são os métodos que serão utilizados para percorrer cada elemento iterable
+  Aula 042-12.1 - Introdução a Generators
+    *
+  Aula 043-12.2 - Usando Generators Para Fluxos Assíncronos
+    *
 -- Fim do módulo 2
 
 -- Início do módulo 3: Módulos em Javascript
