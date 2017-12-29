@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>03 - Classes Extendidas</title>
+</head>
+<body>
+  
+</body>
+<script>
+  class Animal {
+    constructor(name){
+      this.name = name;
+    }
+
+    hello(){
+      console.log(`I'm ${this.name}`);
+    }
+  }
+
+  // Classe Dog extendendo TUDO da classe Animal
+  class Dog extends Animal {
+    constructor(name, sound) {
+      super(name);
+      this.sound = sound;
+    }
+
+    bark() {
+      console.log(`${this.sound}, I'm a dog called ${this.name}`);
+    }
+  }
+
+  const elephant = new Animal('Dumbo');
+  const dog = new Dog('Pitty', 'Auau');
+</script>
+</html>

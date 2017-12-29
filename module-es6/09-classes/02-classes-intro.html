@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - Classes Intros</title>
+</head>
+<body>
+  
+</body>
+<script>
+
+  // Declarando uma classe no ES6 
+  class Animal {
+    // Método construtor
+    constructor(kind, sound){
+      this.kind  = kind;
+      this.sound = sound;
+    }
+
+    // Método comum
+    hello() {
+      console.log(`${this.sound}, I'm a ${this.kind}. Nice to meet you`);
+    }
+
+    // Método estático: só será utilizado no objeto Animal e não na referência
+    static info() {
+      console.log(`This is a class to create animals!`);
+    }
+
+    // Getter
+    get name() {
+      console.log(`${this.sound}, my name is Anyone!`);
+    }
+
+    // Setter
+    set nickname(nick){
+      this.nick = nick;
+    }
+  }
+
+  // Também pode-se declarar uma classe assim, mas não é muito utilizado
+  /*
+    let Animal = class {}
+  */
+
+  const dog = new Animal('dog', 'auau');
+  const cat = new Animal('cat', 'meow');
+
+</script>
+</html>

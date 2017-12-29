@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>03 - Promises Múltiplas</title>
+</head>
+<body>
+  
+</body>
+<script>
+  const currency = new Promise((resolve, reject) => {
+    let data = {
+      currency: 'euro',
+      value: 3.50
+    }
+    setTimeout(() => {
+      resolve(data);      
+    }, 2000);
+  });
+
+  const countries = new Promise((resolve, reject) => {
+    let data = [
+      'Ireland',
+      'England',
+      'Scotland',
+    ];
+    setTimeout(() => {
+      resolve(data)
+    }, 600)
+  });
+
+  /* Classe Promise
+    Método all() - está pegando todas as promises e trabalhando com elas, pois foi passado um array com a lista das promises a serem utilizadas
+                   depois que as DUAS promises forem resolvidas, ai sim realiza-se uma ação no then()
+  */
+  Promise
+        .all([currency, countries])
+        .then(responses => {
+          console.log(responses);
+        });
+  /*
+    Método race() - ele também recebe uma lista de Promises a serem realizadas, porém, 
+                    quando a primeira promise for realizada, ignora-se todo o resto.
+  */
+  Promise
+        .race([currency, countries])
+        .then(responses => {
+          console.log(responses);
+        });
+</script>
+</html>

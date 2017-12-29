@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Revisão Herança Prototipal</title>
+</head>
+<body>
+  
+</body>
+<script>
+  /* Criando uma função construtora (Classe)
+    Dentro da função está sendo atribuida os valores kind e sound passado como argumento
+    no objeto this dessa função nas propriedades criadas kind e sound
+  */
+  function Animal(kind, sound) {
+    // Contructor: contruindo as propriedades do objeto
+    this.kind  = kind;
+    this.sound = sound;
+  }
+
+  // Criando um método do prototype do objeto Animal
+  Animal.prototype.hello = function () {
+    console.log(`${this.sound}, I'm a ${this.kind}. Nice to meet you`);
+  }
+
+  const dog = new Animal('dog', 'auau');
+  const cat = new Animal('cat', 'meow')
+</script>
+</html>

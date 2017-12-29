@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - Promises Example</title>
+</head>
+<body>
+  
+</body>
+<script>
+  /* Fazendo uma requisição 
+     o método de requisição fetch() trabalha em cima do protocolo de promise
+  */
+  var posts = fetch('https://willianjusten.com.br/search.json');
+
+  /* Status da promise
+    - pending : quando não conseguiu realizar a promise
+    - resolved: quando deu tudo certo com a promise
+    - rejected: quando deu erro com a promise
+  */
+
+  // No caso, aqui o status será pending, pois não deu o tempo necessário para realizar a promise
+  // console.log(posts);
+
+  // Neste caso, a promise será resolved
+  // setTimeout(()=>{
+    // console.log(posts);  
+  // }, 3000);
+
+  // Pegando os dados recebidos e retornando apenas o title de cada objeto  
+  // posts
+  //     .then(data => data.json())
+  //     .then(data => data.map(post => {
+  //       console.log(post.title);
+  //     }));
+
+  // Causando um erro para cair no método catch()
+  posts
+      .then(data => data.json())
+      .then(data => {
+        throw new Error('Deu erro na requisição');
+      })
+      .catch(err => console.error(err));
+</script>
+</html>

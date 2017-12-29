@@ -70,26 +70,26 @@
 -- Fim do módulo 1
 
 -- Início do módulo 2: Aprendendo ES6
-  Aula 011     - Introdução ao EcmaScript 6
+  Aula 011      - Introdução ao EcmaScript 6
     * Features: http://es6-features.org/#Constants
     * Tabela de compatibilidade: https://kangax.github.io/compat-table/es6/
     * Leitura sobre es6
       - inglês: https://ponyfoo.com/articles/tagged/es6-in-depth
       - pt-br: https://nipher.io
   
-  Aula 012-2.1 - Escopo do JS
+  Aula 012-2.1  - Escopo do JS
     * nesta aula, foi abordado o escopo do js. Tiveram exemplo de declaração de variáveis
       usando a palavra chave 'var' em escopos diferentes, demonstrando o comportamento em situações específicas
     * o 'var' é global  a não ser que estejam dentro de funções
     * as variáveis feitas com 'var' são chamadas 'function scoped', são variáveis que tem o escopo somente dentro de funções ou são globais
 
-  Aula 013-2.2 - Variável let no JS
+  Aula 013-2.2  - Variável let no JS
     * nesta aula, foi abordado a palavra chave 'let'. Tiveram exemplos de declaração de variáveis 
       usando a palavra chave 'let' e 'var' em escopos diferentes, para demonstrar o comportamento de ambos em situações específicas.
     * uma das características do let é a declaração de variáveis em um escopo, e não correr o risco dessa variável ser reescrita em outro escopo.
       Então você garante que ela ficará presa apenas naquele escopo.
 
-  Aula 014-2.3 - Variável const no JS
+  Aula 014-2.3  - Variável const no JS
     * nesta aula, foi abordado a palavra chave 'const'. Tiveram exemplos de declaração de variáveis usando a palavra chave,
       com ênfase na afirmação que o const faz com que a variável fique imutável, mas não é bem assim.
 
@@ -97,7 +97,7 @@
       Porém, em um dos exemplos na aula, se for criado um objeto usando 'const', é possível reatribuir os valores das propriedade 
       desse objeto. Mas reatribuir o objeto em si, não é possível.
 
-  Aula 015-2.4 - Temporal Dead Zone  
+  Aula 015-2.4  - Temporal Dead Zone  
     * nesta aula, foi abordado o tema temporal dead zone. Que nada mais é, uma referenciar uma variável, sem mesmo ter atribuído algum valor a ela antes.
 
     * se a palavra chave for 'var', a mensagem será 'undefined', pois o js faz algo chamado 'hosting', cuja a função é,
@@ -107,13 +107,13 @@
     * se for let ou const, o erro será diferente, pois quando se utiliza uma dessas palavras chaves, ele não fará o mesmo host
       como se faz no 'var', ele vai ignorar, não permitindo que seja criada um variável sem atribuição. Isso é útil pq assim a gente consegue ver que estamos chamando valores antes mesmo de serem atribuídos.
       
-  Aula 016-3.1 - Introdução ao Arrow Function
+  Aula 016-3.1  - Introdução ao Arrow Function
     * arrow function é uma feature do es6. Uma expressão arrow function possui uma sintaxe mais curta do que uma função anônima do es5, por exemplo.
 
     * por ela ter uma sintaxe mais curta, ela tem como característica inicial, sua simplicidade na hora da leitura de código,
       o encadeamento de funções também fica bem mais simples
 
-  Aula 017-3.2 - Arrow Function e o Lexical This
+  Aula 017-3.2  - Arrow Function e o Lexical This
 
     * nesta aula foi abordado o elemento this do javascript.
 
@@ -122,94 +122,122 @@
     * é recomendado usar arrow function dentro de outras funções, para manipular as propriedades do objeto 
       no contexto que a função está
     
-  Aula 018-4.1 - Introdução a Template Literals
+  Aula 018-4.1  - Introdução a Template Literals
     * template literal tem a função de criar strings com variaveis internas e concatena-las com mais praticidade
     
     * na aula foi mostrado como utilizar o template em uma string linear utilizando variáveis 
       e também utilizando a quebra de linha
 
-  Aula 019-4.2 - Usando Template Literals Para HTML Fragments
+  Aula 019-4.2  - Usando Template Literals Para HTML Fragments
     * criando fragmentos de HTML utilizando JS
     * na aula foi criado um fragmento de HTML utilizando o template literal,
       no caso, foi utilizado funções, variáveis e as próprias tags em HTML.
   
-  Aula 020-4.3 - Tagged Template
+  Aula 020-4.3  - Tagged Template
     * utilizando uma função na frente do texto e fazer modificações em cima dele
     * nessa aula houve a:
       * utilização da expressão "debugger"
       * utilização da feature de parâmetros do es6 chamada rest: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/rest_parameters
       * utilização da função reduce() do js
   
-  Aula 021-5.1 - Shorthand Properties
+  Aula 021-5.1  - Shorthand Properties
     * na aula foi mostrado a utilização do shorthand Properties presente no es6
     * tiveram dois exemplos: uma alternativa de atribuir um valor a uma propriedade de um objeto
       e atribuir um função a um objeto  
   
-  Aula 022-5.2 - Default Parameters 
+  Aula 022-5.2  - Default Parameters 
     * uma adição dentro do es6, para setar um parâmetro padrão dentro de uma função
     * bastante útil para evitar o famoso 'undefined'
 
-  Aula 023-5.3 - Novos Métodos Para Strings
+  Aula 023-5.3  - Novos Métodos Para Strings
     * Métodos para se trabalhar com strings es6
       - startsWith() -> verifica o ínicio da string retornando um booleano
       - endsWith()   -> verifica o final da string retornando um booleano
       - includes()   -> verifica se existe uma string a partir de uma string
       - repeat()     -> repete uma string n vezes
   
-  Aula 024-6.1 - Array.from()
+  Aula 024-6.1  - Array.from()
     * faz com que o elemento tenha características de um Array
       tendo acesso a todos os métodos que um array contém
 
     * foi mostrado também como transformar uma string em um array
 
-  Aula 025-6.2 - Array.of()
+  Aula 025-6.2  - Array.of()
     * Criar um array a partir de certos elementos
     * Bastante útil para quando precisamos juntar vários elementos diferentes e inseri-los em um array
 
-  Aula 026-6.3 - Array.find() e Array.findIndex()
+  Aula 026-6.3  - Array.find() e Array.findIndex()
     * Array.find() - procura um dado dentro de um array e quando acha, ele retorna aquele elemento e termina a função
     * Array.findIndex() - procura um índice de um array e retorna o índice
     * Bastante poderosos para buscar um determinado elemento dentro de um array passado por uma api, por exemplo.
 
-  Aula 027-6.4 - Array.fill()
+  Aula 027-6.4  - Array.fill()
     * Array.fill() - insere um dado dentro de um array, sendo possível passar dois parâmetros para delimitar
       a posição em que o dado será colocado,sendo o primeiro, o índice inicial onde o elemento será inserido e, o segundo,]
       o índice final menos 1 até onde o elemento será inserido
      
-  Aula 028-7.1 - Introdução ao Destructuring
+  Aula 028-7.1  - Introdução ao Destructuring
 
     * Destructuring é uma feature para pegar valores de arrays ou objetos
       com mais praticidade e com algumas linhas de código
 
-  Aula 029-7.2 - Destructuring em Arrays
+  Aula 029-7.2  - Destructuring em Arrays
     * Destructuring usando arrays, segue a mesma linha utilizando objetos,
       a diferença é que utilizando o array, a semântica fica [] em vez de {}
 
-  Aula 030-7.3 - Fazendo Swap de Variveis com Destructuring
+  Aula 030-7.3  - Fazendo Swap de Variveis com Destructuring
     * Como fazer swap de variáveis em apenas uma linha utilizando Destructuring
     * Na aula foi mostrado dois métodos de fazer o swap, utlizando o Destructuring e não utilizando o Destructuring
     * Ex: [ a, b ] = [b, a]
 
-  Aula 031-8.1 - Introdução ao Spread Operator
+  Aula 031-8.1  - Introdução ao Spread Operator
     * Breve introdução da feature Spread
     * Houve exemplos usando o Spread, sendo eles, concatenar dois array, separar cada elemento de uma string
       e inseri-los em um array, separar os elementos do array e strings, e etc.
 
-  Aula 032-8.2 - Usando o Spread Dentro de Funções
+  Aula 032-8.2  - Usando o Spread Dentro de Funções
     * Foi mostrado um exemplo utilizando spread em funções, passando como argumento um array e alocando cada 
       elemento daquele Array nos argumentos da função.
 
-  Aula 033-8.3 - Rest Params  
+  Aula 033-8.3  - Rest Params  
     * Rest Params é muito semelhante ao Spread Operator
     * O rest params é muito útil quando não sabemos quantos argumentos a função terá
-  Aula 034-9.1 - Introdução a Promises
+  Aula 034-9.1  - Introdução a Promises
     * Promise é um objeto com uma ação que não foi finalizada, mas que será finalizada de alguma forma
     * Promise é importante para se trabalhar com dados assíncronos e evita o callback hell (callback, dentro de callback)
     * Usou-se dois métodos para tratar o dado da promise, sendo eles o then() e o catch()
-  Aula 035-9.2 - Exemplo Real de Promises
-    *
-  Aula 036-9.3 - Manipulando Multiplas Promises 
-    *
+  Aula 035-9.2  - Exemplo Real de Promises
+    * Realizando uma requisição para o servidor e fazendo uma promise para realizar ações quando ela estivesse pronta
+    * Há três status promises: pending, resolved, rejected
+    * Fizemos testes verificando cada status da promise
+  Aula 036-9.3  - Manipulando Multiplas Promises 
+    * Dois métodos estáticos da Promise: all() e race()
+    * all()  - recebe uma lista de todas as promises que for passada e as resolved
+    * race() - recebe uma lista de todas as promises que for passada e a partir da primeira
+      promise que for resolvida, é ignorado todo o resto. Útil quando está trabalhando com diversas
+      requisições mas a primeira que for realizada, é a mais importante.
+  Aula 037-10.1 - Herança Prototipal
+    * Um exemplo de uma classe construtora, com um método prototipal
+    * Foi criada uma classe contrutora a declaração de duas propriedades,
+      depois foi criada uma referência para o objeto e criou-se um método 
+      prototipal
+  Aula 038-10.2 - Criando Classes do ES6
+    * Criou-se uma classe usando ES6, com um método contrutor, um método estático,
+      um método comum, um getter e setter.
+
+  Aula 039-10.3 - Usando Extended Classes
+    * Uma classe que extende de uma outra classe principal, onde essa classe que vai extender
+      herda TUDO da classe extendida
+    * Foi utilizado a palavra chave super() para primeiro construir a classe
+      extendida para depois utiliza-lo na classe que está extendendo
+  Aula 040-11.1 - Introdução a Symbols
+    * Symbols tem a utilidade de fazer com que algum elemento seja único e imutável
+    * Pode ser útil para fazer com que algum elemento não seja reescrito em algum outro lugar
+    * Um Symbol é único, mesmo com os nomes iguais, ele é único
+  Aula 041-11.2 - Iterators e Iterables for...of
+    * Iterators e Iterables são protocolos novos do JS que permite interar sobre um informação
+    * Elementos que pode se iterar são chamados de Iterables
+    * Iterators são os métodos que serão utilizados para percorrer cada elemento iterable
 -- Fim do módulo 2
 
 -- Início do módulo 3: Módulos em Javascript

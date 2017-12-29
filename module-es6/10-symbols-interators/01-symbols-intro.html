@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Symbols Intro</title>
+</head>
+<body>
+  
+</body>
+<script>
+  
+
+  // Declarando dois symbols com nome iguais
+  let foo = Symbol('name');
+  let bar = Symbol('name');
+
+  // Verificando que as duas symbols são diferentes e não são idênticos
+  console.log(foo === bar);
+
+  // Declarando um objeto com propriedades symbols e propriedades comuns
+  let obj = {
+    [Symbol('name')] : 'Arthur',
+    [Symbol('age')]  : 18,
+    city             : 'São Paulo'
+  };
+
+  // Capturando todos os symbols do objeto 'obj'
+  const symbols = Object.getOwnPropertySymbols(obj);
+
+  // Exibindo os symbols
+  const data = symbols.map(sym => obj[sym]);
+
+  console.log(data);
+</script>
+</html>

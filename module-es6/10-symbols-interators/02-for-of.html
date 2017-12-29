@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - for...of</title>
+</head>
+<body>
+  
+</body>
+<script>  
+  // iterables - elementos que podem ser percorridos
+  var txt      = 'Arthur';
+  // iterators - métodos de se percorrer um elemento que seja percorrível
+  var iterator = txt[Symbol.iterator](); 
+
+  console.log(iterator.next());
+  console.log(iterator.next());
+  console.log(iterator.next());
+  console.log(iterator.next());
+  console.log(iterator.next());
+  console.log(iterator.next());
+  console.log(iterator.next());
+
+  // for ... of
+  for(letter of txt){
+    console.log(letter);
+    if(letter === 'h')break;
+  }
+</script>
+</html>
