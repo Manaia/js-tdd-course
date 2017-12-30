@@ -239,12 +239,45 @@
     * Elementos que pode se iterar são chamados de Iterables
     * Iterators são os métodos que serão utilizados para percorrer cada elemento iterable
   Aula 042-12.1 - Introdução a Generators
-    *
+    * Generators é uma feature muito semelhante aos interables
+    * Para criar um Generator, é necessário incluir um '*' depois da palavra chave 'function'
+    * Ele tem uma palavra chave chamada 'yield', muito similar ao return
+    * Ele é muito útil para se trabalhar com fluxos
   Aula 043-12.2 - Usando Generators Para Fluxos Assíncronos
-    *
+    * Trabalhando com Generators em fluxos ajax (assíncronos)
+    * Foi-se trabalhado o conceito de fluxos em cima de requisições ajax,
+      no momento que uma requisição terminasse, executaria outra logo em seguida
+      utilizando Generator
+  Aula 044-13.1 - Introdução ao Proxy
+    * Proxy é uma forma de definir comportamentos diferentes para métodos dentro de um objeto
+    * Foi criado dois métodos dentro do objeto, get() e set()
+      get() - capturava a propriedade do objeto que estava sendo chamado e imprimia-o
+      set() - inseria um novo valor a propriedade que estava sendo trabalhado naquele momento
+    * O proxy é um intermediário, que irá supervisionar as ações que estão sendo executadas no momento,
+      com a ajuda dos métodos criados
+  Aula 045-14.1 - Introdução ao Set
+    * Set é muito similar a um array, mas ele não trabalha com índices,
+      para buscar algum elemento presente no set, utiliza-se o nome do elemento para filtrar
+    * Todos os elemetos presente no set são únicos e não são repetíveis
+    * Foram apresentados alguns métodos do set, add(), delete() e has()
+    * O set pode ser um iterator para percorrer os elementos dele  
+  Aula 046-14.2 - Introdução ao Weakset
+    * WeakSet é mais limitado do que o Set
+    * Ele só recebe objetos, diferente do Set que recebe além de objetos, tipo primitivos
+    * WeakSet não é um iterator, portanto não tem como fazer um for...of
+  Aula 047-15.1 - Introdução ao Map
+    * Muito similar ao Set, mas ele trabalha com chave e valor
+    * Também é um iterator, mas ele retorna apenas o valor do map e descarta a chave
+  Aula 048-15.2 - Introdução ao WeakMap
+    * Semelhante ao WeakSet e ao Map
+    * Obs do WeakSet e do WeakMap: quando se tem uma referência de algum elemento,
+      e essa referência é apagada do escopo do script, todas as referências declaradas
+      também desaparecem, economizando memória do computador 
 -- Fim do módulo 2
 
 -- Início do módulo 3: Módulos em Javascript
+  Aula 049 - Introdução a Módulos em JS
+    * https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
 -- Fim do módulo 3
 
 -- Início do módulo 4: Teoria de Testes

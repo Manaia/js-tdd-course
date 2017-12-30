@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - Weakset Intro</title>
+</head>
+<body>
+  
+</body>
+<script>
+  let obj1 = {
+    name : 'Arthur',
+    age  : 18 
+  };
+
+  let obj2 = {
+    name : 'Manaia',
+    age  : 18
+  };
+
+  let obj3 = {
+    type : 'obj'
+  };
+
+  /* Um objeto da classe WeakSet
+    - WeakSet é mais limitado do que o Set
+    - Ele só recebe objetos, diferente do Set que recebe além de objetos, tipo primitivos
+    - WeakSet não é um iterator, portanto não tem como fazer um for...of
+  */
+  weakSet = new WeakSet([obj1, obj2]);
+
+</script>
+</html>

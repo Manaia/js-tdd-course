@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Proxies Intro</title>
+</head>
+<body>
+  
+</body>
+<script>
+  let obj = {
+    name : 'Arthur',
+    age  : 18
+  };
+  /* Um objeto da classe Proxy
+    obj - será o objeto no qual você irá trabalhar
+    {}  - será um handler, onde irá colocar os métodos
+  */
+  let proxy = new Proxy(obj, {
+    // target - o objeto 'obj'
+    // prop   - a propriedade com o qual irá trabalhar
+    get(target, prop){
+      console.log(`Alguém está pedindo a propriedade ${prop}!`);
+      return target[prop];
+    },
+    set(target, prop, value){
+      console.log(`Alguém está mudando a propriedade ${prop}!`);
+      target[prop] = value;
+    }    
+  });
+</script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - WeakMaps</title>
+</head>
+<body>
+  
+</body>
+<script>
+  let obj1 = {
+    name : 'Arthur',
+    age  : 18 
+  };
+
+  let obj2 = {
+    name : 'Manaia',
+    age  : 18
+  };
+
+  let weakmap = new WeakMap();
+
+  weakmap.set(obj1, 'Infos de Arthur');
+  weakmap.set(obj2, 'Infos de Manaia');
+</script>
+</html>

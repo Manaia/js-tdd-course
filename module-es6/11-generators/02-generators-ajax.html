@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - Generators Fluxo Ajax</title>
+</head>
+<body>
+  
+</body>
+<script>
+  function ajax(url){
+    fetch(url)
+    .then(data => data.json())
+    // Quando a promessa estiver pronta, executa a próxima requisição 
+    .then(data => dados.next(data))
+    .catch(err => console.error(err));
+  }
+
+  // Nessa situação, a função não irá realizar um console log e esperar a requisição a ajax para chamar outro console log
+  // function ajaxGen() {
+  //   console.log('Buscando posts...');
+  //   ajax('https://willianjusten.com.br/search.json');
+
+  //   console.log('Buscando dados github...');
+  //   ajax('https://api.github.com/users/willianjusten');
+    
+  // }
+
+  // Utilizando Generator
+  function* ajaxGen() {
+    console.log('Buscando posts...');
+    const posts = yield ajax('https://willianjusten.com.br/search.json');
+    console.log(posts);
+
+    console.log('Buscando dados github...');
+    const github = yield ajax('https://api.github.com/users/willianjusten');
+    console.log(github);
+  }
+
+  const dados = ajaxGen();
+  dados.next();
+  // https://willianjusten.com.br/search.json
+  // https://api.github.com/users/willianjusten
+
+</script>
+</html>

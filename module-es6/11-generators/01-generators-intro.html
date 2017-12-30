@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Generators Intro</title>
+</head>
+<body>
+  
+</body>
+<script>
+  // Gerando nomes 
+  // function genNames() {
+  //   console.log('Arthur');
+  //   console.log('Manaia');
+  // }
+
+  /* Usando generators
+    - Para se usar um generator, coloca-se um * depois da palavra chave 'function'
+    - Um generator é muito similar aos interables
+    - yield: similar ao 'return', porém, o return finaliza a função, já o yield não. 
+    - Muito útil para se trabalhar com fluxos
+  */
+  function* genNames(){
+    console.log('Chamando o primeiro nome');
+    yield 'Arthur';
+    console.log('Chamando o segundo nome');    
+    yield 'Manaia';
+  }
+
+  const names = genNames();
+
+  console.log(names.next());
+  console.log(names.next());
+  console.log(names.next());
+</script>
+</html>

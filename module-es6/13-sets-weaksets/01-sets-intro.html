@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - Sets Intro</title>
+</head>
+<body>
+  
+</body>Um objeto da classe proxy
+<script>
+  /* Um objeto da classe Set
+    - Os elementos dentro do set, são únicos, e também são interators.
+    - O set é muito similar a um array, mas o array se trabalha com índices,
+      o set não. Ele usa o nome dos elementos como 'índices', já que são únicos
+  */
+  let mySet = new Set(['arthur', 'manaia', 'willian']);
+
+  /* Adicionando um novo elemento
+    Quando se adiciona um novo elemento, ele o adiciona apenas uma vez
+  */
+  mySet.add('ricardo');
+
+  // Deleta um elemento do Set
+  mySet.delete('willian');
+  // Tem o elemento 'arthur' no set: true
+  console.log(mySet.has('arthur'));
+
+  // Tem o elemento 'willian' no set: false  
+  console.log(mySet.has('willian'));
+
+  // declarando um iterator
+  let iterator = mySet.values();
+
+  // percorrendo o iterable através do iterator
+  console.log(iterator.next());
+
+  // Capturando todos os iterables
+  for(name of iterator){
+    console.log(name);
+  }
+</script>
+</html>
