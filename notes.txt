@@ -280,11 +280,22 @@
     * https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
     * Módulos são pequenos trechos de códigos ou auto contidos, que tivesse alguma funcionalidade, onde conseguimos 
       separar dentro daquele módulo toda a responsabilidade dele, específico para fazer alguma função.
-     
 
   Aula 050 - Configurando o Webpack
     * Webpack (https://webpack.js.org): é um bundler que tem a função de unir os módulo no javascript e carrega-los em nosso browser 
     * Babel (https://babeljs.io/): é um transpiler que pega o código js e traduzir para uma versão mais antiga para o browser interpretar
+    * Instalando webpack e o babel no projeto: npm install --save-dev webpack babel-loader babel-core babel-preset-env
+    * Todas as funções do webpack: ./node_modules/.bin/webpack --help
+  
+  Aula 051 - Trabalhando com Imports no ES6
+    * Métodos de se importar bibliotecas usando ES6
+    * Sintaxe: import método from 'biblioteca'
+
+  Aula 052 - Trabalhando com Exports no ES6
+    
+  Aula 053 - UglifyJS no Webpack
+    * 
+
 -- Fim do módulo 3
 
 -- Início do módulo 4: Teoria de Testes
