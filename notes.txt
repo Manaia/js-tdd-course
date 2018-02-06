@@ -288,7 +288,7 @@
     * Todas as funções do webpack: ./node_modules/.bin/webpack --help
   
   Aula 051 - Trabalhando com Imports no ES6
-    * Métodos de se importar bibliotecas usando ES6
+    * Métodos de importar bibliotecas usando ES6
     * Sintaxe: import método from 'biblioteca'
 
   Aula 052 - Trabalhando com Exports no ES6
