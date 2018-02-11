@@ -292,10 +292,11 @@
     * Sintaxe: import método from 'biblioteca'
 
   Aula 052 - Trabalhando com Exports no ES6
-    
-  Aula 053 - UglifyJS no Webpack
+    * Exports tem como objetivo, exportar métodos ou variáveis para que outros arquivos consigam utiliza-los
     * 
-
+  Aula 053 - UglifyJS no Webpack
+    * UglifyJS é um método presente no webpack, cuja a função é minificar o projeto para ele ficar menor.
+    * Ele é configurado no arquivo webpack.config.js
 -- Fim do módulo 3
 
 -- Início do módulo 4: Teoria de Testes

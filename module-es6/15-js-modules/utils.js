@@ -1,5 +1,5 @@
 function sum(a, b) {
-    return a + b;
+  return a + b;
 }
 
 // named export
@@ -7,15 +7,15 @@ function sum(a, b) {
 // só pode chamar com o mesmo nome
 // import precisa das chaves
 export function sub(a, b){
-    return a -b;
+  return a - b;
 }
 
 function mult(a, b) {
-    return a * b;
+  return a * b;
 }
 
 function div(a, b){
-    return a / b;
+  return a / b;
 }
 // Exportando tudo, porém deveria remover os outros exports 
 // export * as utils;
