@@ -297,6 +297,19 @@
   Aula 053 - UglifyJS no Webpack
     * UglifyJS é um método presente no webpack, cuja a função é minificar o projeto para ele ficar menor.
     * Ele é configurado no arquivo webpack.config.js
+  
+  Aula 054 - Variveis de Ambiente no Webpack
+    * Foi mostrado como criar variáveis no webpack
+    * Criou-se então uma variável para verificar se o projeto está 
+      no ambiente de desenvolvimento ou de produção quando desse um 
+      npm run build 
+
+  Aula 055 - Adicionando Sourcemaps em Nosso Código
+    *
+    *
+  Aula 056 - Inicializando um Server com Webpack
+    *
+    *
 -- Fim do módulo 3
 
 -- Início do módulo 4: Teoria de Testes
