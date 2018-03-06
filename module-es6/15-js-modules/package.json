@@ -18,6 +18,8 @@
     "webpack": "^3.10.0"
   },
   "dependencies": {
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
