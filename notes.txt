@@ -3,7 +3,7 @@
     Npm - https://www.npmjs.com
     * configurar npm: https://docs.npmjs.com/misc/config
     * configurações default, ex: npm set init-author-name "Arthur Manaia"
-    * add user para linkar o projeto com o seu npm: npm adduser  
+    * add user para linkar o projeto com o seu npm: npm adduser
     * inicializando a biblioteca no projeto: npm init
 
   Aula 003 - Criando o gitignore
@@ -11,7 +11,7 @@
     * instalação: npm install gitignore -g
     * listar todos os projetos disponíveis para a utilização do gitignore: gitignore -types
     * adicionar o projeto: gitignore Node
-      
+
   Aula 004 - Criando arquivos para documentação
 
    Arquivos para documentação - readme, license, contributing (se for open source)
@@ -22,7 +22,7 @@
       - https://opensource.org/licenses
       - MIT: https://opensource.org/licenses/MIT
     * Contribuição: https://github.com/lyef/lyef-react-component/blob/master/CONTRIBUTING.md
-    
+
   Aula 005 - Padrões de código: styleguide
 
     Airbnb - padrões de código
@@ -53,14 +53,14 @@
 
     Editorconfig - http://editorconfig.org/
       * Configurando o editor de texto. Ex: identação
-      * plugin necessário para o editor config        
-  
+      * plugin necessário para o editor config
+
   Aula 009 - Criando um npm scripts
     * Ex de um scripts
       - Em package.json no objeto "scripts" a chave será o nome do comando e o valor será o comando
       - Ex: "lint": "./node_modules/.bin/eslint src/*.js"
       - Em seguida no terminal, rode o comando npm run lint
-  
+
   Aula 010 - Configurando hooks no git
 
    Husky - alguns scripts que rodam antes de alguma tarefa
@@ -76,7 +76,7 @@
     * Leitura sobre es6
       - inglês: https://ponyfoo.com/articles/tagged/es6-in-depth
       - pt-br: https://nipher.io
-  
+
   Aula 012-2.1  - Escopo do JS
     * nesta aula, foi abordado o escopo do js. Tiveram exemplo de declaração de variáveis
       usando a palavra chave 'var' em escopos diferentes, demonstrando o comportamento em situações específicas
@@ -84,7 +84,7 @@
     * as variáveis feitas com 'var' são chamadas 'function scoped', são variáveis que tem o escopo somente dentro de funções ou são globais
 
   Aula 013-2.2  - Variável let no JS
-    * nesta aula, foi abordado a palavra chave 'let'. Tiveram exemplos de declaração de variáveis 
+    * nesta aula, foi abordado a palavra chave 'let'. Tiveram exemplos de declaração de variáveis
       usando a palavra chave 'let' e 'var' em escopos diferentes, para demonstrar o comportamento de ambos em situações específicas.
     * uma das características do let é a declaração de variáveis em um escopo, e não correr o risco dessa variável ser reescrita em outro escopo.
       Então você garante que ela ficará presa apenas naquele escopo.
@@ -94,19 +94,19 @@
       com ênfase na afirmação que o const faz com que a variável fique imutável, mas não é bem assim.
 
     * a palavra chave const, faz com que a variável seja constante, não sendo possível reatribuir algum outro valor.
-      Porém, em um dos exemplos na aula, se for criado um objeto usando 'const', é possível reatribuir os valores das propriedade 
+      Porém, em um dos exemplos na aula, se for criado um objeto usando 'const', é possível reatribuir os valores das propriedade
       desse objeto. Mas reatribuir o objeto em si, não é possível.
 
-  Aula 015-2.4  - Temporal Dead Zone  
+  Aula 015-2.4  - Temporal Dead Zone
     * nesta aula, foi abordado o tema temporal dead zone. Que nada mais é, uma referenciar uma variável, sem mesmo ter atribuído algum valor a ela antes.
 
     * se a palavra chave for 'var', a mensagem será 'undefined', pois o js faz algo chamado 'hosting', cuja a função é,
-      pegar todas as variáveis declaradas que tem no corpo do js atribuir tudo em cima como se fosse global, já 
-      que está sendo utilizado o 'var'.  
+      pegar todas as variáveis declaradas que tem no corpo do js atribuir tudo em cima como se fosse global, já
+      que está sendo utilizado o 'var'.
 
     * se for let ou const, o erro será diferente, pois quando se utiliza uma dessas palavras chaves, ele não fará o mesmo host
       como se faz no 'var', ele vai ignorar, não permitindo que seja criada um variável sem atribuição. Isso é útil pq assim a gente consegue ver que estamos chamando valores antes mesmo de serem atribuídos.
-      
+
   Aula 016-3.1  - Introdução ao Arrow Function
     * arrow function é uma feature do es6. Uma expressão arrow function possui uma sintaxe mais curta do que uma função anônima do es5, por exemplo.
 
@@ -119,33 +119,33 @@
 
     * o this do arrow function pega o contexto de onde ele está e não do contexto como um todo
 
-    * é recomendado usar arrow function dentro de outras funções, para manipular as propriedades do objeto 
+    * é recomendado usar arrow function dentro de outras funções, para manipular as propriedades do objeto
       no contexto que a função está
-    
+
   Aula 018-4.1  - Introdução a Template Literals
     * template literal tem a função de criar strings com variaveis internas e concatena-las com mais praticidade
-    
-    * na aula foi mostrado como utilizar o template em uma string linear utilizando variáveis 
+
+    * na aula foi mostrado como utilizar o template em uma string linear utilizando variáveis
       e também utilizando a quebra de linha
 
   Aula 019-4.2  - Usando Template Literals Para HTML Fragments
     * criando fragmentos de HTML utilizando JS
     * na aula foi criado um fragmento de HTML utilizando o template literal,
       no caso, foi utilizado funções, variáveis e as próprias tags em HTML.
-  
+
   Aula 020-4.3  - Tagged Template
     * utilizando uma função na frente do texto e fazer modificações em cima dele
     * nessa aula houve a:
       * utilização da expressão "debugger"
       * utilização da feature de parâmetros do es6 chamada rest: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/rest_parameters
       * utilização da função reduce() do js
-  
+
   Aula 021-5.1  - Shorthand Properties
     * na aula foi mostrado a utilização do shorthand Properties presente no es6
     * tiveram dois exemplos: uma alternativa de atribuir um valor a uma propriedade de um objeto
-      e atribuir um função a um objeto  
-  
-  Aula 022-5.2  - Default Parameters 
+      e atribuir um função a um objeto
+
+  Aula 022-5.2  - Default Parameters
     * uma adição dentro do es6, para setar um parâmetro padrão dentro de uma função
     * bastante útil para evitar o famoso 'undefined'
 
@@ -155,7 +155,7 @@
       - endsWith()   -> verifica o final da string retornando um booleano
       - includes()   -> verifica se existe uma string a partir de uma string
       - repeat()     -> repete uma string n vezes
-  
+
   Aula 024-6.1  - Array.from()
     * faz com que o elemento tenha características de um Array
       tendo acesso a todos os métodos que um array contém
@@ -175,7 +175,7 @@
     * Array.fill() - insere um dado dentro de um array, sendo possível passar dois parâmetros para delimitar
       a posição em que o dado será colocado,sendo o primeiro, o índice inicial onde o elemento será inserido e, o segundo,]
       o índice final menos 1 até onde o elemento será inserido
-     
+
   Aula 028-7.1  - Introdução ao Destructuring
 
     * Destructuring é uma feature para pegar valores de arrays ou objetos
@@ -196,10 +196,10 @@
       e inseri-los em um array, separar os elementos do array e strings, e etc.
 
   Aula 032-8.2  - Usando o Spread Dentro de Funções
-    * Foi mostrado um exemplo utilizando spread em funções, passando como argumento um array e alocando cada 
+    * Foi mostrado um exemplo utilizando spread em funções, passando como argumento um array e alocando cada
       elemento daquele Array nos argumentos da função.
 
-  Aula 033-8.3  - Rest Params  
+  Aula 033-8.3  - Rest Params
     * Rest Params é muito semelhante ao Spread Operator
     * O rest params é muito útil quando não sabemos quantos argumentos a função terá
   Aula 034-9.1  - Introdução a Promises
@@ -210,7 +210,7 @@
     * Realizando uma requisição para o servidor e fazendo uma promise para realizar ações quando ela estivesse pronta
     * Há três status promises: pending, resolved, rejected
     * Fizemos testes verificando cada status da promise
-  Aula 036-9.3  - Manipulando Multiplas Promises 
+  Aula 036-9.3  - Manipulando Multiplas Promises
     * Dois métodos estáticos da Promise: all() e race()
     * all()  - recebe uma lista de todas as promises que for passada e as resolved
     * race() - recebe uma lista de todas as promises que for passada e a partir da primeira
@@ -219,7 +219,7 @@
   Aula 037-10.1 - Herança Prototipal
     * Um exemplo de uma classe construtora, com um método prototipal
     * Foi criada uma classe contrutora a declaração de duas propriedades,
-      depois foi criada uma referência para o objeto e criou-se um método 
+      depois foi criada uma referência para o objeto e criou-se um método
       prototipal
   Aula 038-10.2 - Criando Classes do ES6
     * Criou-se uma classe usando ES6, com um método contrutor, um método estático,
@@ -260,7 +260,7 @@
       para buscar algum elemento presente no set, utiliza-se o nome do elemento para filtrar
     * Todos os elemetos presente no set são únicos e não são repetíveis
     * Foram apresentados alguns métodos do set, add(), delete() e has()
-    * O set pode ser um iterator para percorrer os elementos dele  
+    * O set pode ser um iterator para percorrer os elementos dele
   Aula 046-14.2 - Introdução ao Weakset
     * WeakSet é mais limitado do que o Set
     * Ele só recebe objetos, diferente do Set que recebe além de objetos, tipo primitivos
@@ -272,63 +272,80 @@
     * Semelhante ao WeakSet e ao Map
     * Obs do WeakSet e do WeakMap: quando se tem uma referência de algum elemento,
       e essa referência é apagada do escopo do script, todas as referências declaradas
-      também desaparecem, economizando memória do computador 
+      também desaparecem, economizando memória do computador
 -- Fim do módulo 2
 
--- Início do módulo 3: Módulos em Javascript
-  Aula 049 - Introdução a Módulos em JS
+-- Início do módulo 3: Atualizações ES7 e ES8
+  Aula 049 - Introdução ao Async/Await
+    - async/await funciona obrigatoriamente no protocolo de Promises
+    - async é uma palavra chave usada no início de uma função
+    - await é usado para avisar a função para esperar o resultado da Promise
+    - await só pode ser usado para uma função com async
+    - async/await já está funcionando em quase todos os Browsers e NodeJS
+-- Fim do módulo 3
+
+-- Início do módulo 4: Módulos em Javascript
+  Aula 058 - Introdução a Módulos em JS
     * https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
-    * Módulos são pequenos trechos de códigos ou auto contidos, que tivesse alguma funcionalidade, onde conseguimos 
+    * Módulos são pequenos trechos de códigos ou auto contidos, que tivesse alguma funcionalidade, onde conseguimos
       separar dentro daquele módulo toda a responsabilidade dele, específico para fazer alguma função.
 
-  Aula 050 - Configurando o Webpack
-    * Webpack (https://webpack.js.org): é um bundler que tem a função de unir os módulo no javascript e carrega-los em nosso browser 
+  Aula 059 - Configurando o Webpack
+    * Webpack (https://webpack.js.org): é um bundler que tem a função de unir os módulo no javascript e carrega-los em nosso browser
     * Babel (https://babeljs.io/): é um transpiler que pega o código js e traduzir para uma versão mais antiga para o browser interpretar
     * Instalando webpack e o babel no projeto: npm install --save-dev webpack babel-loader babel-core babel-preset-env
     * Todas as funções do webpack: ./node_modules/.bin/webpack --help
-  
-  Aula 051 - Trabalhando com Imports no ES6
+
+  Aula 060 - Trabalhando com Imports no ES6
     * Métodos de importar bibliotecas usando ES6
     * Sintaxe: import método from 'biblioteca'
 
-  Aula 052 - Trabalhando com Exports no ES6
+  Aula 061 - Trabalhando com Exports no ES6
     * Exports tem como objetivo, exportar métodos ou variáveis para que outros arquivos consigam utiliza-los
-    * 
-  Aula 053 - UglifyJS no Webpack
+    *
+  Aula 062 - UglifyJS no Webpack
     * UglifyJS é um método presente no webpack, cuja a função é minificar o projeto para ele ficar menor.
     * Ele é configurado no arquivo webpack.config.js
-  
-  Aula 054 - Variveis de Ambiente no Webpack
+
+  Aula 063 - Variveis de Ambiente no Webpack
     * Foi mostrado como criar variáveis no webpack
-    * Criou-se então uma variável para verificar se o projeto está 
-      no ambiente de desenvolvimento ou de produção quando desse um 
-      npm run build 
+    * Criou-se então uma variável para verificar se o projeto está
+      no ambiente de desenvolvimento ou de produção quando desse um
+      npm run build
 
-  Aula 055 - Adicionando Sourcemaps em Nosso Código
-    *
-    *
-  Aula 056 - Inicializando um Server com Webpack
-    *
-    *
--- Fim do módulo 3
+  Aula 064 - Adicionando Sourcemaps em Nosso Código
+    * Sourcemaps são ferramentas para facilitar o debug. Como o arquivo está todo comprimido
+      fica difícil achar um erro, source map facilita nessa parte.
+    * Na aula foi visto três tipo de Sourcemaps
+      * cheap-eval-source-map: mais simples e leve
+      * eval-source-map: meio termo de simplicidade e leveza
+      * source-map: o mais completo dentre os três
+    * Obs: devtool: cheap-eval-source-map || eval-source-map || source-map;
 
--- Início do módulo 4: Teoria de Testes
+  Aula 065 - Inicializando um Server com Webpack
+    * Criando um servidor usando o webpack dev server
 -- Fim do módulo 4
 
--- Início do módulo 5: Unindo Conceitos na Prática
+-- Início do módulo 5: Teoria de Testes
+  Aula 066 - Qualidade de Software
+    * Link dos slides: https://willianjusten.com.br/js-tdd-slides
+    * Link do artigo escrito por MCCall sobre Qualidade: https://people.dsv.su.se/~joco2917/ft_gateway11.cfm.pdf
 -- Fim do módulo 5
 
--- Início do módulo 6: Criando uma Biblioteca Wrapper da API do Spotify
+-- Início do módulo 6: Unindo Conceitos na Prática
 -- Fim do módulo 6
 
--- Início do módulo 7: Refatorando uma Biblioteca com Testes
+-- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
 -- Fim do módulo 7
 
--- Início do módulo 8: Criando um Player do Spotify
+-- Início do módulo 8: Refatorando uma Biblioteca com Testes
 -- Fim do módulo 8
 
--- Início do módulo 9: Criando uma CLI para Converter Bitcoin em Qualquer Moeda
+-- Início do módulo 9: Criando um Player do Spotify
 -- Fim do módulo 9
 
--- Início do módulo 10: Introdução a Teste com React Criando um Componente Full Header
+-- Início do módulo 10: Criando uma CLI para Converter Bitcoin em Qualquer Moeda
 -- Fim do módulo 10
+
+-- Início do módulo 11: Introdução a Teste com React Criando um Componente Full Header
+-- Fim do módulo 11
