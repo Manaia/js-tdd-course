@@ -330,6 +330,86 @@
   Aula 066 - Qualidade de Software
     * Link dos slides: https://willianjusten.com.br/js-tdd-slides
     * Link do artigo escrito por MCCall sobre Qualidade: https://people.dsv.su.se/~joco2917/ft_gateway11.cfm.pdf
+
+  Aula 067 - Alguns Fatores para Alcançar Qualidade em seu Projeto
+    * Nesta aula, foi abordada algumas práticas em relação a ter uma boa Qualidade
+      no desenvolvimento do projeto
+    * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
+
+  Aula 068 - Por que Testar?
+    * Nesta aula, foi abordada alguns pontos cruciais referente a testes,
+      onde teremos muito desempenho e qualidade se adotarmos essa prática.
+
+    * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
+
+  Aula 069 - Como Funciona o Fluxo do TDD?
+    * Link sobre um post de TDD: https://willianjusten.com.br/entendendo-testes-de-software/#tdd
+    * O TDD é dividido em três pequenas etapas:
+      * Escrever o teste que irá falhar (de uma forma burra)
+      * Fazer o código que irá fazer o teste funcionar
+      * Refatoração caso há necessidade, eliminando as redundâncias
+    * Fluxo do teste
+      * Escrever o teste
+      * Escrever o código para o teste passar
+      * Escrever um segundo caso de teste
+      * Corrigir o código para que passe
+      * Escrever um terceiro caso de teste (se necessário)
+      * Refatorar o todo o código (para garantir o funcionamento do código)
+
+    * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
+
+  Aula 070 - Como pensar em testes? Padrão de teste.
+    * Pensando como testar
+      * O que o código precisa fazer?
+      * Que dados ele recebe?
+      * Que dados ele precisa retornar?
+      * Que ações precisam acontecer para o código rodar?
+    * Padrão de teste
+      * "Ele deve fazer isso quando aquilo"
+
+    * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
+
+  Aula 071 - Tipos de testes
+    * Teste unitário
+      * são testes de responsabilidade única
+    * Teste de Serviço / Integração
+      * são teste de um componente, cujo os testes unitários já foram realizados
+        nos métodos que compõe o componente
+      * esses componentes tem como objetivo, realizar uma chamada ao banco ou
+        api, por exemplo
+    * Teste de UI
+      * testes para verificar a interação com o usuário
+      * testes de regreção quando é feita uma mudança de js ou css, por exemplo
+
+    * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
+
+  Aula 072 - Algumas dicas para os tipos de testes
+    * Teste unitário
+      * Evitar ruído entre os testes (Isolamento)
+      * Escolha os melhores asserts para cada momento
+      * Procure usar Mocks para chamadas externas
+      * Utilize o teste para organizar o design do código
+    * Teste de Integração
+      * É um teste para validar se os componentes estão funcionando em conjunto
+      * Cuidado para não criar um teste inútil
+      * Isole o máximo possível dos ambientes
+    * Testes de Aceitação (E2E)
+      * O teste tem como propósito avaliar a qualidade externa do produto e
+        também a qualidade em uso
+      * Valide apenas o fluxo de funcionamento do projeto
+
+    * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
+
+  Aula 073 - Spies, Stubs e Mocks
+    * Spies
+      *
+    * Stubs
+      *
+    * Mocks
+      *
+
+    * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
+
 -- Fim do módulo 5
 
 -- Início do módulo 6: Unindo Conceitos na Prática
