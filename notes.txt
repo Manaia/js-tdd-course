@@ -402,17 +402,39 @@
 
   Aula 073 - Spies, Stubs e Mocks
     * Spies
-      *
+      * Vigiar informações sobre chamadas de funções (métodos)
+      * São úteis para testar callbacks e como métodos são usados dentro do sistema
+
     * Stubs
-      *
+      * São como os spies, exceto por eles substituirem a função alvo
+      * Controlar comportamento de um teste: forçar excessão
+      * Pular uma parte não necessária do códigos
+      * Simplificar o teste de códigos assíncronos
+
     * Mocks
-      *
+      * são métodos falsos com comportamento pré-programado e
+        resposta/expectations pré-programados
+      * Devem ser primariamente utilizados quando você precisa de um Stub,
+        mas precisa verificar múltiplos comportamentos num específico ponto
+
 
     * o Material usado na aula, foi os slides da aula 066 - Qualidade de Software
 
 -- Fim do módulo 5
 
 -- Início do módulo 6: Unindo Conceitos na Prática
+  Aula 074 - Apresentando ferramentas
+    * MochaJS    - https://mochajs.org/
+    * ChaiJS     - chaijs.com
+    * SinonJS    - http://sinonjs.org/
+    * IstanbulJS - https://istanbul.js.org/
+    * NYC        - https://github.com/istanbuljs/nyc/
+
+  Aula 075 - Iniciando a estrutura com Mocha e Chai
+    * Criando a estrutura de testes
+      * npm install --save-dev mocha chai
+      * Criando a pasta tests/main.spec.js
+      * Script de teste no npm: ./node_modules/.bin/mocha tests/**/*.spec.js
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
