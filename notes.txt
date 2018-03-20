@@ -435,6 +435,23 @@
       * npm install --save-dev mocha chai
       * Criando a pasta tests/main.spec.js
       * Script de teste no npm: ./node_modules/.bin/mocha tests/**/*.spec.js
+
+  Aula 076 - Funcionamento do Mocha - describe, context, it
+    * describe: descrever os testes de uma certa função/método
+    * context: é o contexto da ação de cada método
+    * it: é o teste que de fato será feito
+
+  Aula 077 - Reporters do Mocha
+    * Reporters é um jeito de informar como os testes estão passando
+    * script: npm test -- --reporters
+
+  Aula 078 - Comandos Skip, Only, Bail
+    * Skip: it.skip()
+      * Pula um trecho do teste
+    * Only: context.only()
+      * Roda apenas um bloco específico
+    * Bail: npm test -- --bail
+      * para o teste no primeiro erro que encontrar
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
