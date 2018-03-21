@@ -423,6 +423,7 @@
 -- Fim do módulo 5
 
 -- Início do módulo 6: Unindo Conceitos na Prática
+
   Aula 074 - Apresentando ferramentas
     * MochaJS    - https://mochajs.org/
     * ChaiJS     - chaijs.com
@@ -452,6 +453,15 @@
       * Roda apenas um bloco específico
     * Bail: npm test -- --bail
       * para o teste no primeiro erro que encontrar
+
+  Aula 079 - Introdução aos Hooks do Mocha
+    * before () - roda uma ação antes do bloco
+    * after () - roda uma ação depois do bloco
+    * beforeEach () - roda uma ação toda vez, antes de CADA bloco
+    * afterEach () - roda uma ação toda vez, depois de CADA bloco
+
+  Aula 080 - Hooks na Prática
+    *
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify

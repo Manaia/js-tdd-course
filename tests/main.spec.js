@@ -1,29 +1,37 @@
 describe('Main', function() {
-  describe('Method A', function() {
-    context('Case 1', function () {
-      it.skip('should happen blabla', function() {
-          // espera que aconteça
-          // Entrada de dados / métodos sum(2, 2)
-          // Espera retorar (4) => true | (3) => false => broken test
-          throw new Error('just an error');
-      });
-    });
-    context('Case 2', function () {
-      it('should happen blabla', function() {
-          // espera que aconteça
-          // Entrada de dados / métodos sum(2, 2)
-          // Espera retorar (4) => true | (3) => false => broken test
-          throw new Error('just an error');
-      });
-      it('should happen mimimi', function() {
-          // espera que aconteça
-          // Entrada de dados / métodos sum(2, 2)
-          // Espera retorar (4) => true | (3) => false => broken test
-      });
-    });
+  before(function () {
+    console.log('before');
   });
 
-  describe('Method B', function() {
+  after(function() {
+    console.log('after');
+  });
 
+  beforeEach(function() {
+    console.log('beforeEach');
+  });
+
+  afterEach(function (){
+    console.log('afterEach');
+  });
+
+  it('test 1', function () {
+    console.log('test 1');
+  });
+
+  it('test 2', function () {
+    console.log('test 2');
   });
 });
+
+// Ciclo dos hooks nessa situação acima
+/*
+  before
+  beforeEach
+  test 1
+  afterEach
+  beforeEach
+  test 2
+  afterEach
+  after
+*/
