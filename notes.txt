@@ -459,9 +459,22 @@
     * after () - roda uma ação depois do bloco
     * beforeEach () - roda uma ação toda vez, antes de CADA bloco
     * afterEach () - roda uma ação toda vez, depois de CADA bloco
+    * Ciclo dos hooks nessa situação acima
+      * before
+      * beforeEach
+      * test 1
+      * afterEach
+      * beforeEach
+      * test 2
+      * afterEach
+      * after
 
   Aula 080 - Hooks na Prática
-    *
+    * Fazendo um caso de testesd utilizando os hooks
+    * Dicas: criar a variavel no escopo. No beforeEach,
+             inserir o valor para os testes utilizarem sem haver
+             conflito
+
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify

@@ -1,26 +1,36 @@
 describe('Main', function() {
+  var arr;
+
   before(function () {
-    console.log('before');
+    // inicia uma conexão no banco
+    // criar um conjunto de dados
   });
 
   after(function() {
-    console.log('after');
+    // fecha conexão do banco
+    // apagar esse conjunto de dados
   });
 
   beforeEach(function() {
-    console.log('beforeEach');
+    arr = [1, 2, 3];
   });
 
   afterEach(function (){
-    console.log('afterEach');
+
   });
 
-  it('test 1', function () {
-    console.log('test 1');
+  it('should have a size of 4 when push another value to the array', function () {
+    arr.push(4);
+    console.log(arr.length); // 4
   });
 
-  it('test 2', function () {
-    console.log('test 2');
+  it('should have a size of 2 when pop a value from the array', function () {
+    arr.pop();
+    console.log(arr.length); // 2
+  });
+
+  it('should remove the value 3 when use pop in the array', function () {
+    console.log(arr.pop() === 3); // true
   });
 });
 
