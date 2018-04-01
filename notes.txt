@@ -478,6 +478,23 @@
     * Documentação API: http://www.chaijs.com/api/bdd/
     * fazendo testes utilizando o expect do chai
     * smoke test
+
+  Aula 082 - Criando uma Calculadora Simples Parte 1
+    * Primeiramente foi criado uma nova branch chamada calc para se trabalhar
+    * Iniciando o ciclo de teste, fizemos o smoke tests
+
+  Aula 083 - Criando uma Calculadora Simples Parte 2
+    * Fazendo testes nos métodos de operações básicas da calculadora
+    * Refatorando código
+
+  Aula 084 - Convertendo e testando em ES6
+    * Instalando o transpiler babel-preset-env babel-register
+    * Reescrevendo os códigos já feitos para ES6
+    * Alterando um pouco o package.json
+    * Incluindo o arquivo chamado .babelrc
+
+  Aula 085 - Criando um FizzBuzz com TDD
+    *
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
