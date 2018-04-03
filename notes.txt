@@ -511,7 +511,8 @@
       * Branches: se os blocos estão realmente sendo testados (if, else, etc);
       * Functions: são as funções que está sendo testada
       * Lines: são as linhas estão sendo cobertas
-
+  Aula 087 - Rodando o Check-Coverage Antes de cada Push
+    *
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
