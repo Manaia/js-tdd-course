@@ -494,7 +494,11 @@
     * Incluindo o arquivo chamado .babelrc
 
   Aula 085 - Criando um FizzBuzz com TDD
-    *
+    * Criou-se uma mini lib para realizar testes com um escopo definido inicial
+      * Se o número for divisível por 3, no lugar do número escreva 'Fizz' - Done
+      * Se o número for divisível por 5, no lugar do número escreva 'Buzz' - Done
+      * Se o número for divisível por 3 e 5, no lugar do número escreva 'FizzBuzz' - Done
+      * Se não for múltiplo de nada, retorna o número
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
