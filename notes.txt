@@ -499,6 +499,19 @@
       * Se o número for divisível por 5, no lugar do número escreva 'Buzz' - Done
       * Se o número for divisível por 3 e 5, no lugar do número escreva 'FizzBuzz' - Done
       * Se não for múltiplo de nada, retorna o número
+
+  Aula 086 - Aplicando o Code Coverage
+    * utilizando a lib chamada 'nyc' para fazer o code coverage
+    * npm install --save-dev nyc
+    * O code coverage vai analizar todos os pedaços do código que foi testada
+      ou seja, analizar se aquele teste já rodou aquele trecho de código
+    * Quando se usa o nyc ele cria uma tabela com algumas informações
+      * File: seria os arquivos que ele testou
+      * Statements: são basicamente as linhas que estão rodando e testando
+      * Branches: se os blocos estão realmente sendo testados (if, else, etc);
+      * Functions: são as funções que está sendo testada
+      * Lines: são as linhas estão sendo cobertas
+
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
