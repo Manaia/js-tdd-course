@@ -517,10 +517,10 @@
     * Adicionando ao prepush hook, uma verificação para realizar os testes
       e se tiver com um coverage de mais de 80%, passar o teste e realizar
       o push
-
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
+  Aula 088 - Introdução da Biblioteca 
 -- Fim do módulo 7
 
 -- Início do módulo 8: Refatorando uma Biblioteca com Testes
