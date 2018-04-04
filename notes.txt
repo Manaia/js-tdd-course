@@ -478,9 +478,58 @@
     * Documentação API: http://www.chaijs.com/api/bdd/
     * fazendo testes utilizando o expect do chai
     * smoke test
+
+  Aula 082 - Criando uma Calculadora Simples Parte 1
+    * Primeiramente foi criado uma nova branch chamada calc para se trabalhar
+    * Iniciando o ciclo de teste, fizemos o smoke tests
+
+  Aula 083 - Criando uma Calculadora Simples Parte 2
+    * Fazendo testes nos métodos de operações básicas da calculadora
+    * Refatorando código
+
+  Aula 084 - Convertendo e testando em ES6
+    * Instalando o transpiler babel-preset-env babel-register
+    * Reescrevendo os códigos já feitos para ES6
+    * Alterando um pouco o package.json
+    * Incluindo o arquivo chamado .babelrc
+
+  Aula 085 - Criando um FizzBuzz com TDD
+    * Criou-se uma mini lib para realizar testes com um escopo definido inicial
+      * Se o número for divisível por 3, no lugar do número escreva 'Fizz' - Done
+      * Se o número for divisível por 5, no lugar do número escreva 'Buzz' - Done
+      * Se o número for divisível por 3 e 5, no lugar do número escreva 'FizzBuzz' - Done
+      * Se não for múltiplo de nada, retorna o número
+
+  Aula 086 - Aplicando o Code Coverage
+    * utilizando a lib chamada 'nyc' para fazer o code coverage
+    * npm install --save-dev nyc
+    * O code coverage vai analizar todos os pedaços do código que foi testada
+      ou seja, analizar se aquele teste já rodou aquele trecho de código
+    * Quando se usa o nyc ele cria uma tabela com algumas informações
+      * File: seria os arquivos que ele testou
+      * Statements: são basicamente as linhas que estão rodando e testando
+      * Branches: se os blocos estão realmente sendo testados (if, else, etc);
+      * Functions: são as funções que está sendo testada
+      * Lines: são as linhas estão sendo cobertas
+
+  Aula 087 - Rodando o Check-Coverage Antes de cada Push
+    * Uma nova utilidade do code coverage
+    * Adicionando ao prepush hook, uma verificação para realizar os testes
+      e se tiver com um coverage de mais de 80%, passar o teste e realizar
+      o push
 -- Fim do módulo 6
 
 -- Início do módulo 7: Criando uma Biblioteca Wrapper da API do Spotify
+
+  Aula 088 - Introdução da Biblioteca
+    * Api do Spotify: https://developer.spotify.com/web-api/
+    * Spotify Console: https://beta.developer.spotify.com/console/
+
+  Aula 089 - Clonando e editando o Boilerplate
+    * Clonou-se o repositório inicial do curso com as configurações prontas
+    * Criei um novo repositório para trabalhar com o Wrapper - https://github.com/Manaia/spotify-wrapper.git
+
+  Aula 090 - Criando Smoke Tests
 -- Fim do módulo 7
 
 -- Início do módulo 8: Refatorando uma Biblioteca com Testes
