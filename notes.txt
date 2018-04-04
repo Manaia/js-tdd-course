@@ -530,6 +530,9 @@
     * Criei um novo repositório para trabalhar com o Wrapper - https://github.com/Manaia/spotify-wrapper.git
 
   Aula 090 - Criando Smoke Tests
+    * Trabalhando com o endpoint Search
+    
+  Aula 091 - Instalando Sinon e dependências
 -- Fim do módulo 7
 
 -- Início do módulo 8: Refatorando uma Biblioteca com Testes
