@@ -530,9 +530,43 @@
     * Criei um novo repositório para trabalhar com o Wrapper - https://github.com/Manaia/spotify-wrapper.git
 
   Aula 090 - Criando Smoke Tests
-    * Trabalhando com o endpoint Search
-    
+    * Criando smoke tests para os métodos
+      * search (genérico),searchAlbuns, searchArtists, searchTracks
+        searchPlaylists
+
   Aula 091 - Instalando Sinon e dependências
+    * Dependencias instaladas:
+      * sinon, sinon-chai, sinon-stub-promise, node-fetch
+
+  Aula 092 - Utilizando o calledOnce
+    * Configuramos o ambiente de testes com as novas dependencias instaladas
+      para utilizar as requisições
+
+  Aula 093 - Utilizando o calledWith
+    * Utilização do calledWith com argumentos, fazendo os testes
+      utilizando a url do endpoint do spotify para fazer requisições
+
+  Aula 094 - Utilizando context e Refatorando Código Teste
+    *
+
+  Aula 095 - Retornando Promises
+    *
+
+  Aula 096 - Escrevendo Testes para Métodos Restantes
+    *
+
+  Aula 097 - Rodando um Exemplo no Node
+    *
+
+  Aula 098 - Criando Arquivos para o Endpoint de Albuns
+    *
+
+  Aula 099 - Refatorando e Reorganizando o código
+    *
+
+  Aula 100 - Transpilando a Biblioteca com Babel
+
+
 -- Fim do módulo 7
 
 -- Início do módulo 8: Refatorando uma Biblioteca com Testes
