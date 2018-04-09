@@ -276,11 +276,17 @@
 
 -- Início do módulo 3: Atualizações ES7 e ES8
   Aula 049 - Introdução ao Async/Await
-    - async/await funciona obrigatoriamente no protocolo de Promises
-    - async é uma palavra chave usada no início de uma função
-    - await é usado para avisar a função para esperar o resultado da Promise
-    - await só pode ser usado para uma função com async
-    - async/await já está funcionando em quase todos os Browsers e NodeJS
+    * async/await funciona obrigatoriamente no protocolo de Promises
+    * async é uma palavra chave usada no início de uma função
+    * await é usado para avisar a função para esperar o resultado da Promise
+    * await só pode ser usado para uma função com async
+    * async/await já está funcionando em quase todos os Browsers e NodeJS
+
+  Aula 050 - Tratando Erros em Async/Await
+    * Para tratar os erros usando o Async/Await, podemos utilizar o
+      try{}catch(error){}
+
+  Aula 051 - Async/Await com Multiplas Promises
 -- Fim do módulo 3
 
 -- Início do módulo 4: Módulos em Javascript
@@ -565,8 +571,6 @@
     *
 
   Aula 100 - Transpilando a Biblioteca com Babel
-
-
 -- Fim do módulo 7
 
 -- Início do módulo 8: Refatorando uma Biblioteca com Testes
