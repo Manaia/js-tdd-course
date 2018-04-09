@@ -287,6 +287,8 @@
       try{}catch(error){}
 
   Aula 051 - Async/Await com Multiplas Promises
+    *
+
 -- Fim do módulo 3
 
 -- Início do módulo 4: Módulos em Javascript
