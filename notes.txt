@@ -555,16 +555,24 @@
       utilizando a url do endpoint do spotify para fazer requisições
 
   Aula 094 - Utilizando context e Refatorando Código Teste
-    *
+    * Criando duas situações de busca
+      * Buscando apenas por artista ou albuns
+      * Buscando por artistas e albuns
+    * Utilizando Hooks afterEach e beforeEach para melhorar o código
 
   Aula 095 - Retornando Promises
-    *
+    * Retornado uma promise para se resolver utilizando em qualquer teste
 
   Aula 096 - Escrevendo Testes para Métodos Restantes
-    *
+    * Escrevendo o restante dos testes, com os métodos de busca de
+      playlists, albums, tracks, artists
+    * E usando o test:coverage para analisar se está sendo tudo testado
+      devidamente
 
   Aula 097 - Rodando um Exemplo no Node
-    *
+    * Criando um exemplo e rodando no node para mostrar que não foi necessário
+      a utilização de um browser para ter certeza de que os testes estão
+      funcionando
 
   Aula 098 - Criando Arquivos para o Endpoint de Albuns
     *
